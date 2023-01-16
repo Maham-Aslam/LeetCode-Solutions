@@ -3,8 +3,8 @@ class Solution:
 #         applying Kadane's Algorithm
         curr = 0
         max = -inf
-        for i in range(len(nums)):
-            curr += nums[i]
+        for i in nums:
+            curr += i
             if(max < curr): max = curr
             if(curr < 0): curr = 0
         return max
