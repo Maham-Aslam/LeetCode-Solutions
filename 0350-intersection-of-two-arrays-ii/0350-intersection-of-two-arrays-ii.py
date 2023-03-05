@@ -13,7 +13,3 @@ class Solution:
                 counts[i] -= 1
                 
         return res
-    
-        
-        
-        print(a[1])
