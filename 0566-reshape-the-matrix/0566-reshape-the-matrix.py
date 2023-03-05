@@ -3,6 +3,7 @@ class Solution:
         row = len(mat)
         col = len(mat[0])
         
+#       matrix  reshape is possible
         if row*col != r*c: return mat
         
         temp = [i for sub in mat for i in sub]
