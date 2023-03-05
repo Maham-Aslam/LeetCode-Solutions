@@ -12,6 +12,7 @@ class Solution:
                 temp.append(res[i-1][j]+res[i-1][j+1])
             #   last element will always be 1
             temp.append(1)
+            #   final result
             res.append(temp)
             
         return res[:numRows]
