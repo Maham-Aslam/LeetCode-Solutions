@@ -6,8 +6,8 @@ class Solution:
         minimum = 10000
         maxDiff = 0
         
-        for i in range(len(prices)):
-            minimum = min(prices[i], minimum)
-            maxDiff = max(prices[i]-minimum, maxDiff)
+        for i in prices:
+            minimum = min(i, minimum)
+            maxDiff = max(i-minimum, maxDiff)
         
         return maxDiff
